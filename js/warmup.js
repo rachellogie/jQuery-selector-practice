@@ -19,7 +19,7 @@ window.Warmup = {
       Description: show the names of the people who have data-employment="full-time"
       Outcome: Izaiah, Della, Lowell
     */
-    showNamesForSelector("#full-time-button", $("span").data("data-employment") === "full-time");
+    showNamesForSelector("#full-time-button", "[data-employment=full-time]");
 
     /*
       Description: show the names of the people with the class name "talkative"
